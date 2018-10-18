@@ -79,7 +79,7 @@ img {
 .navbar {
     z-index: 1000;
     font-size: 18px;
-    background-color: rgb(255,255,255, 0.9);
+    background-color: rgba(255,255,255, 0.9);
     position: fixed;
     top: 0;
     left: 0;
@@ -353,14 +353,6 @@ hr {
     text-align: center;
     border: 3px solid white;
     background-color: rgba(0,0,0,.5);
-    margin-bottom: 20px;
-}
-
-.overlaytext ul {
-    list-style: none;
-    margin: 0 auto;
-    align-content: center;
-    justify-content: center;
 }
 
 /* CONTACT SECTION */
@@ -495,7 +487,7 @@ textarea {
     .grid {
         display: block;
         margin-left: 5%;
-        margin-right: 10%;
+        margin-right: 11%;
         text-align: center;
     }
 
@@ -513,11 +505,15 @@ textarea {
 
     .skills-grid {
         display: block;
+        margin-left: 5%;
+        margin-right: 11%
     }
 
     /*PORTFOLIO*/
     .portfolio-grid {
         display: block;
+        margin-left: 5%;
+        margin-right: 11%;
     }
 
     .portfolio-item {
@@ -532,9 +528,16 @@ textarea {
         margin: 0 auto;
     }
     form {
-        margin-left: 20%;
+        margin-left: 16%;
+        margin-right: 4%;
 
     }
+
+    input, textarea {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
     .submit-btn {
         width: 100%;
         margin-left: 20px;
