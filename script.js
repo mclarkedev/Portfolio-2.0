@@ -7,6 +7,5 @@ navBarToggle.addEventListener('click', function () {
     mainNav.classList.toggle('main-nav-active');
 });
 
-/* Active Nav on Scroll */
 
 
