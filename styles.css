@@ -1,8 +1,12 @@
 /* GLOBAL STYLES */
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 
 body {
@@ -324,7 +328,7 @@ hr {
 
 .portfolio-item3 {
     grid-column: 3 / 4;
-    background-image:url("./img/port_img.jpg");
+    background-image:url("./img/hangman_img.jpg");
 
 }
 
